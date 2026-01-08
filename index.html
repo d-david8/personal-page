@@ -24,7 +24,7 @@
         <p>Chatbots Developer • Banking Systems • Junior Java Developer</p>
 
         <div class="actions">
-            <!--<a href="#contact" class="btn">Contact</a> --><!-- IGNORE -->
+            <a href="#contact" class="btn">Contact</a>
             <a href="https://github.com/d-david8" target="_blank" class="btn">GitHub</a>
             <a href="https://www.linkedin.com/in/d-david8/" target="_blank" class="btn">LinkedIn</a>
         </div>
@@ -36,7 +36,7 @@
         <ul class="about-list">
             <li class="about-item">
                 <p>
-                    Passionate about technology, software development, and artificial intelligence, with a strong interest in building conversational solutions. Organized and detail-oriented, adaptable and eager to learn, with a focus on shaping clear, effective chatbot flows and delivering high-quality software solutions that meet project requirements.
+                    Passionate about technology, software development, and artificial intelligence, with a strong interest in building conversational solutions. Organized and detail-oriented, adaptable and eager to learn, with a focus on shaping clear, effective chatbot flows and delivering high-quality software solutions.
                 </p>
             </li>
         </ul>
@@ -310,16 +310,35 @@
 
 
     <!-- CONTACT -->
-    <!-- <section class="card slide-up" id="contact">
+    <section class="card slide-up" id="contact">
         <h2>Contact</h2>
+
         <form id="contactForm">
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit" class="btn primary">Send</button>
+            <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                required
+            />
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+            />
+
+            <textarea
+                name="message"
+                placeholder="Message"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn primary">Send</button>
         </form>
-        <p id="formStatus"></p>
-    </section> -->
+
+        <p id="formStatus" class="text-sm mt-2"></p>
+    </section>
     
 </main>
 
