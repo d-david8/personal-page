@@ -132,7 +132,9 @@ body {
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  align-items: center;
+  gap: 0.5rem;
   transition: 
     background 0.25s ease,
     color 0.25s ease,
@@ -445,7 +447,7 @@ body {
   color: var(--tag-color);
 }
 
-/* Hover subtil */
+
 .tags span:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
@@ -488,8 +490,8 @@ input, textarea {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
-
 
 @keyframes fade {
   from { opacity: 0; }
@@ -503,7 +505,6 @@ input, textarea {
   }
 }
 
-/* ===== DESKTOP ===== */
 @media (min-width: 768px) {
   .hero {
     padding: 4rem 2rem;

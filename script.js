@@ -128,7 +128,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
         const response = await fetch("https://www.d-david8.ro/api/send-email.php", {
             method: "POST",
             headers: {
-                "X-API-KEY": "akdjfhg234234jkhg23423"
+                "X-API-KEY": ""
             },
             body: formData
         });
